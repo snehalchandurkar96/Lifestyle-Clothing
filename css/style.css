@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.navbar{
+    font-family: var(--font1);
+    font: bold;
+    height:74px;
+background-color: rgb(118, 214, 252);
+ display: flex;
+   justify-content: center; 
+align-items: center; 
+}
+
+.navbar .nav-left .nav-middle .nav-right{
+    float: none;
+display: block;
+}
+
+.nav-middle{
+    justify-content: center;
+}
+
+.nav-middle input[type="text"]{
+    background: none;
+    text-align: center;
+    border: 1px solid blue;
+    color: blue;
+    cursor: pointer; 
+    
+} 
+.nav-middle input[type="text"]:hover{
+    background: rgb(208, 167, 247);
+}
+
+.btn:hover{
+    background: rgb(208, 167, 247);
+}
+
+ .btn{
+        
+        background: none;
+        text-align: center;
+        border: 1px solid blue;
+        color: white;
+        cursor: pointer; 
+} 
+
+.nav-right ul{
+    display: flex;
+    
+}
+
+.nav-right ul li{
+    list-style: none;
+    margin:2vw;
+
+}
+
+.nav-right ul li a img{
+    /* margin:100px 0;  */
+    
+}
+
+.nav-left{
+font-size: 30px;
+display: flex;
+}
+
+.nav-left span{
+    margin:30px;
+    color: blueviolet;
+}
+
+.nav-left ul{
+    display: flex;
+}
+
+.nav-left ul li{
+    list-style: none;
+    font-family: var(--font2);
+}
+
+.nav-left ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.content{
+    height:200vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    color: rgb(245, 105, 105);
+    font: bold;
+}
+
+.footer{
+    height:50px;
+    background-color: rgb(167, 184, 16) ;
+}
+
+.footer ul li{
+    list-style: none;
+    font-family: var(--font2);
+    display: flex;
+    justify-content: center;
+}
+
+.footer ul li a{
+    text-decoration: none;
+    color: blueviolet;
+    font-size: 15px;
+}
